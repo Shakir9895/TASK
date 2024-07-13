@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* background-color: rgb(74, 71, 67); */
+    background: url('https://c4.wallpaperflare.com/wallpaper/9/519/764/mountains-best-for-desktop-background-wallpaper-preview.jpg');
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.container {
+    width: auto;
+    height: auto;
+    /* margin: 200px auto; */
+}
+
+
+.container1 {
+    width: 500px;
+    height: 400px;
+    margin: 200px auto;
+}
+
+.container2{
+    width: 500px;
+    height: 400px;
+}
+
+
+
+.input_bg{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}:focus{
+    outline: none;
+}
+
+.glass1 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.scrollbar-thumb-custom::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
